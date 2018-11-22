@@ -35,13 +35,13 @@
 				{
 					"value": "Who",
 					"count": 38,
-					"color": "rgb(203, 161, 202)",
+					"color": "rgb(155, 178, 114)",
 					"$$hashKey": "object:93"
 				},
 				{
 					"value": "database",
 					"count": 20,
-					"color": "rgb(165, 200, 143)",
+					"color": "rgb(209, 147, 189)",
 					"$$hashKey": "object:94"
 				}
 			],
@@ -129,7 +129,7 @@
 			"max": 26,
 			"areaScaling": {
 				"min": 10,
-				"max": 100,
+				"max": 30,
 				"interpolation": "linear"
 			},
 			"data": {}
