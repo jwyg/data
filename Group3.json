@@ -1,0 +1,8244 @@
+{
+	"title": "Untitled",
+	"authors": [],
+	"bundleVersion": "0.1alpha",
+	"consolidated": true,
+	"date": "2019-03-11",
+	"defaultNodeColor": "a-599dcce2998a6b40b1e38e8c6006cb0a",
+	"edgeAttributes": [
+		{
+			"id": "weight",
+			"name": "Weight",
+			"count": 1,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "undefined",
+					"count": 26,
+					"color": "rgb(165, 200, 146)"
+				},
+				{
+					"value": "2",
+					"count": 1,
+					"color": "rgb(205, 159, 200)"
+				}
+			],
+			"modalitiesIndex": {
+				"2": {
+					"value": "2",
+					"count": 1,
+					"color": "rgb(205, 159, 200)"
+				},
+				"undefined": {
+					"value": "undefined",
+					"count": 26,
+					"color": "rgb(165, 200, 146)"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"2": {
+						"edges": 1
+					},
+					"undefined": {
+						"edges": 26
+					}
+				},
+				"modalities": [
+					"2",
+					"undefined"
+				]
+			}
+		}
+	],
+	"nodeAttributes": [
+		{
+			"id": "a-599dcce2998a6b40b1e38e8c6006cb0a",
+			"name": "A-599dcce2998a6b40b1e38e8c6006cb0a",
+			"count": 34,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "url",
+					"count": 20,
+					"color": "rgb(226, 156, 120)"
+				},
+				{
+					"value": "ad",
+					"count": 6,
+					"color": "rgb(114, 193, 227)"
+				},
+				{
+					"value": "analytics",
+					"count": 4,
+					"color": "rgb(189, 196, 114)"
+				},
+				{
+					"value": "tracker",
+					"count": 3,
+					"color": "rgb(215, 155, 214)"
+				},
+				{
+					"value": "widget",
+					"count": 1,
+					"color": "rgb(118, 213, 168)"
+				}
+			],
+			"modalitiesIndex": {
+				"url": {
+					"value": "url",
+					"count": 20,
+					"color": "rgb(226, 156, 120)"
+				},
+				"ad": {
+					"value": "ad",
+					"count": 6,
+					"color": "rgb(114, 193, 227)"
+				},
+				"analytics": {
+					"value": "analytics",
+					"count": 4,
+					"color": "rgb(189, 196, 114)"
+				},
+				"tracker": {
+					"value": "tracker",
+					"count": 3,
+					"color": "rgb(215, 155, 214)"
+				},
+				"widget": {
+					"value": "widget",
+					"count": 1,
+					"color": "rgb(118, 213, 168)"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"url": {
+						"nodes": 20,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 27,
+						"inboundNDensity": 0.125,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 27,
+						"externalNDensity": 0.125
+					},
+					"tracker": {
+						"nodes": 3,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888892,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888892
+					},
+					"ad": {
+						"nodes": 6,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 10,
+						"outboundNDensity": 0.046296296296296315,
+						"externalLinks": 10,
+						"externalNDensity": 0.046296296296296315
+					},
+					"analytics": {
+						"nodes": 4,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 13,
+						"outboundNDensity": 0.06018518518518516,
+						"externalLinks": 13,
+						"externalNDensity": 0.06018518518518516
+					},
+					"widget": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					}
+				},
+				"modalities": [
+					"url",
+					"tracker",
+					"ad",
+					"analytics",
+					"widget"
+				],
+				"modalityFlow": {
+					"url": {
+						"url": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tracker": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ad": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"analytics": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"widget": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"tracker": {
+						"url": {
+							"count": 3,
+							"expected": 1.4999999999999998,
+							"nd": 0.013888888888888892
+						},
+						"tracker": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ad": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"analytics": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"widget": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"ad": {
+						"url": {
+							"count": 10,
+							"expected": 4.999999999999998,
+							"nd": 0.046296296296296315
+						},
+						"tracker": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ad": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"analytics": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"widget": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"analytics": {
+						"url": {
+							"count": 13,
+							"expected": 6.500000000000003,
+							"nd": 0.06018518518518516
+						},
+						"tracker": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ad": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"analytics": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"widget": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"widget": {
+						"url": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"tracker": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ad": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"analytics": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"widget": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					}
+				},
+				"stats": {
+					"modularity": -0.125
+				}
+			}
+		},
+		{
+			"id": "a-67b3dba8bc6778101892eb77249db32e",
+			"name": "A-67b3dba8bc6778101892eb77249db32e",
+			"count": 20,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "undefined",
+					"count": 14,
+					"color": "rgb(159, 179, 95)"
+				},
+				{
+					"value": "sina.com.cn",
+					"count": 1,
+					"color": "rgb(199, 162, 232)"
+				},
+				{
+					"value": "gmw.cn",
+					"count": 1,
+					"color": "rgb(91, 221, 173)"
+				},
+				{
+					"value": "chinadaily.com.cn",
+					"count": 1,
+					"color": "rgb(235, 144, 188)"
+				},
+				{
+					"value": "xinhuanet.com",
+					"count": 1,
+					"color": "rgb(138, 205, 147)"
+				},
+				{
+					"value": "oeeee.com",
+					"count": 1,
+					"color": "rgb(231, 149, 130)"
+				},
+				{
+					"value": "eastday.com",
+					"count": 1,
+					"color": "rgb(99, 212, 207)"
+				},
+				{
+					"value": "southcn.com",
+					"count": 1,
+					"color": "rgb(214, 178, 109)"
+				},
+				{
+					"value": "rednet.cn",
+					"count": 1,
+					"color": "rgb(121, 185, 232)"
+				},
+				{
+					"value": "cyol.com",
+					"count": 1,
+					"color": "rgb(200, 221, 134)"
+				},
+				{
+					"value": "cqnews.net",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "workercn.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "sohu.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "china.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "163.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "huanqiu.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "youdao.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "ifeng.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "guancha.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "sznews.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "ynet.com",
+					"count": 1,
+					"color": "#AAA"
+				}
+			],
+			"modalitiesIndex": {
+				"undefined": {
+					"value": "undefined",
+					"count": 14,
+					"color": "rgb(159, 179, 95)"
+				},
+				"sina.com.cn": {
+					"value": "sina.com.cn",
+					"count": 1,
+					"color": "rgb(199, 162, 232)"
+				},
+				"gmw.cn": {
+					"value": "gmw.cn",
+					"count": 1,
+					"color": "rgb(91, 221, 173)"
+				},
+				"chinadaily.com.cn": {
+					"value": "chinadaily.com.cn",
+					"count": 1,
+					"color": "rgb(235, 144, 188)"
+				},
+				"xinhuanet.com": {
+					"value": "xinhuanet.com",
+					"count": 1,
+					"color": "rgb(138, 205, 147)"
+				},
+				"oeeee.com": {
+					"value": "oeeee.com",
+					"count": 1,
+					"color": "rgb(231, 149, 130)"
+				},
+				"eastday.com": {
+					"value": "eastday.com",
+					"count": 1,
+					"color": "rgb(99, 212, 207)"
+				},
+				"southcn.com": {
+					"value": "southcn.com",
+					"count": 1,
+					"color": "rgb(214, 178, 109)"
+				},
+				"rednet.cn": {
+					"value": "rednet.cn",
+					"count": 1,
+					"color": "rgb(121, 185, 232)"
+				},
+				"cyol.com": {
+					"value": "cyol.com",
+					"count": 1,
+					"color": "rgb(200, 221, 134)"
+				},
+				"cqnews.net": {
+					"value": "cqnews.net",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"workercn.cn": {
+					"value": "workercn.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"sohu.com": {
+					"value": "sohu.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"china.com": {
+					"value": "china.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"163.com": {
+					"value": "163.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"huanqiu.com": {
+					"value": "huanqiu.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"youdao.com": {
+					"value": "youdao.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"ifeng.com": {
+					"value": "ifeng.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"guancha.cn": {
+					"value": "guancha.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"sznews.com": {
+					"value": "sznews.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"ynet.com": {
+					"value": "ynet.com",
+					"count": 1,
+					"color": "#AAA"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"sina.com.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 5,
+						"inboundNDensity": 0.023148148148148154,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 5,
+						"externalNDensity": 0.023148148148148154
+					},
+					"undefined": {
+						"nodes": 14,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 27,
+						"outboundNDensity": 0.125,
+						"externalLinks": 27,
+						"externalNDensity": 0.125
+					},
+					"gmw.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 2,
+						"inboundNDensity": 0.009259259259259259,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"chinadaily.com.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 5,
+						"inboundNDensity": 0.023148148148148154,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 5,
+						"externalNDensity": 0.023148148148148154
+					},
+					"xinhuanet.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 1,
+						"inboundNDensity": 0.004629629629629629,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"oeeee.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 1,
+						"inboundNDensity": 0.004629629629629629,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"eastday.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 2,
+						"inboundNDensity": 0.009259259259259259,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"southcn.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 4,
+						"inboundNDensity": 0.018518518518518517,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 4,
+						"externalNDensity": 0.018518518518518517
+					},
+					"rednet.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 2,
+						"inboundNDensity": 0.009259259259259259,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"cyol.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 2,
+						"inboundNDensity": 0.009259259259259259,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"cqnews.net": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 2,
+						"inboundNDensity": 0.009259259259259259,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"workercn.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 1,
+						"inboundNDensity": 0.004629629629629629,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"sohu.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"china.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"163.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"huanqiu.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"youdao.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"ifeng.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"guancha.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"sznews.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					},
+					"ynet.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 0,
+						"externalNDensity": 0
+					}
+				},
+				"modalities": [
+					"sina.com.cn",
+					"undefined",
+					"gmw.cn",
+					"chinadaily.com.cn",
+					"xinhuanet.com",
+					"oeeee.com",
+					"eastday.com",
+					"southcn.com",
+					"rednet.cn",
+					"cyol.com",
+					"cqnews.net",
+					"workercn.cn",
+					"sohu.com",
+					"china.com",
+					"163.com",
+					"huanqiu.com",
+					"youdao.com",
+					"ifeng.com",
+					"guancha.cn",
+					"sznews.com",
+					"ynet.com"
+				],
+				"modalityFlow": {
+					"sina.com.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"undefined": {
+						"sina.com.cn": {
+							"count": 5,
+							"expected": 2.4999999999999996,
+							"nd": 0.023148148148148154
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"chinadaily.com.cn": {
+							"count": 5,
+							"expected": 2.4999999999999996,
+							"nd": 0.023148148148148154
+						},
+						"xinhuanet.com": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"oeeee.com": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"eastday.com": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"southcn.com": {
+							"count": 4,
+							"expected": 2,
+							"nd": 0.018518518518518517
+						},
+						"rednet.cn": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"cyol.com": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"cqnews.net": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"workercn.cn": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"gmw.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"chinadaily.com.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"xinhuanet.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"oeeee.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"eastday.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"southcn.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"rednet.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"cyol.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"cqnews.net": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"workercn.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"sohu.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"china.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"163.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"huanqiu.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"youdao.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"ifeng.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"guancha.cn": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"sznews.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"ynet.com": {
+						"sina.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"gmw.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"chinadaily.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"xinhuanet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"oeeee.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"eastday.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"southcn.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"rednet.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cyol.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cqnews.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"workercn.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sohu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"china.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"163.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"huanqiu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"youdao.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ifeng.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"guancha.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"sznews.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"ynet.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					}
+				},
+				"stats": {
+					"modularity": -0.125
+				}
+			}
+		},
+		{
+			"id": "a-b99eb09924d437dbd445a146af8c210a",
+			"name": "A-b99eb09924d437dbd445a146af8c210a",
+			"count": 14,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(190, 171, 230)"
+				},
+				{
+					"value": "13",
+					"count": 1,
+					"color": "rgb(156, 182, 100)"
+				},
+				{
+					"value": "187",
+					"count": 1,
+					"color": "rgb(153, 157, 240)"
+				},
+				{
+					"value": "704",
+					"count": 1,
+					"color": "rgb(199, 221, 146)"
+				},
+				{
+					"value": "951",
+					"count": 1,
+					"color": "rgb(233, 148, 200)"
+				},
+				{
+					"value": "1240",
+					"count": 1,
+					"color": "rgb(113, 212, 158)"
+				},
+				{
+					"value": "1241",
+					"count": 1,
+					"color": "rgb(231, 148, 130)"
+				},
+				{
+					"value": "1242",
+					"count": 1,
+					"color": "rgb(100, 218, 207)"
+				},
+				{
+					"value": "1243",
+					"count": 1,
+					"color": "rgb(212, 174, 105)"
+				},
+				{
+					"value": "1572",
+					"count": 1,
+					"color": "rgb(105, 191, 227)"
+				},
+				{
+					"value": "1610",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "1896",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "1897",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "1900",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "1902",
+					"count": 1,
+					"color": "#AAA"
+				}
+			],
+			"modalitiesIndex": {
+				"13": {
+					"value": "13",
+					"count": 1,
+					"color": "rgb(156, 182, 100)"
+				},
+				"187": {
+					"value": "187",
+					"count": 1,
+					"color": "rgb(153, 157, 240)"
+				},
+				"704": {
+					"value": "704",
+					"count": 1,
+					"color": "rgb(199, 221, 146)"
+				},
+				"951": {
+					"value": "951",
+					"count": 1,
+					"color": "rgb(233, 148, 200)"
+				},
+				"1240": {
+					"value": "1240",
+					"count": 1,
+					"color": "rgb(113, 212, 158)"
+				},
+				"1241": {
+					"value": "1241",
+					"count": 1,
+					"color": "rgb(231, 148, 130)"
+				},
+				"1242": {
+					"value": "1242",
+					"count": 1,
+					"color": "rgb(100, 218, 207)"
+				},
+				"1243": {
+					"value": "1243",
+					"count": 1,
+					"color": "rgb(212, 174, 105)"
+				},
+				"1572": {
+					"value": "1572",
+					"count": 1,
+					"color": "rgb(105, 191, 227)"
+				},
+				"1610": {
+					"value": "1610",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"1896": {
+					"value": "1896",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"1897": {
+					"value": "1897",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"1900": {
+					"value": "1900",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"1902": {
+					"value": "1902",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"undefined": {
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(190, 171, 230)"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"13": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"187": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"704": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					},
+					"951": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1240": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1241": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1242": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"1243": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"1572": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					},
+					"1610": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"1896": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1897": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1900": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 7,
+						"outboundNDensity": 0.03240740740740741,
+						"externalLinks": 7,
+						"externalNDensity": 0.03240740740740741
+					},
+					"1902": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"undefined": {
+						"nodes": 20,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 27,
+						"inboundNDensity": 0.12499999999999997,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 27,
+						"externalNDensity": 0.12499999999999997
+					}
+				},
+				"modalities": [
+					"13",
+					"187",
+					"704",
+					"951",
+					"1240",
+					"1241",
+					"1242",
+					"1243",
+					"1572",
+					"1610",
+					"1896",
+					"1897",
+					"1900",
+					"1902",
+					"undefined"
+				],
+				"modalityFlow": {
+					"13": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"187": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"704": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						}
+					},
+					"951": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1240": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1241": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1242": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"1243": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"1572": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						}
+					},
+					"1610": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"1896": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1897": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1900": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 7,
+							"expected": 3.4999999999999996,
+							"nd": 0.03240740740740741
+						}
+					},
+					"1902": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"undefined": {
+						"13": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"187": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"704": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"951": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1240": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1241": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1242": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1243": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1572": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1610": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1896": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1897": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1900": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1902": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					}
+				},
+				"stats": {
+					"modularity": -0.12499999999999997
+				}
+			}
+		},
+		{
+			"id": "a-4b7cc5694dd3a265bac326eaba31266e",
+			"name": "A-4b7cc5694dd3a265bac326eaba31266e",
+			"count": 14,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(233, 145, 147)"
+				},
+				{
+					"value": "2",
+					"count": 1,
+					"color": "rgb(109, 220, 160)"
+				},
+				{
+					"value": "398",
+					"count": 1,
+					"color": "rgb(226, 154, 215)"
+				},
+				{
+					"value": "1174",
+					"count": 1,
+					"color": "rgb(160, 182, 98)"
+				},
+				{
+					"value": "1551",
+					"count": 1,
+					"color": "rgb(164, 165, 236)"
+				},
+				{
+					"value": "2025",
+					"count": 1,
+					"color": "rgb(194, 224, 143)"
+				},
+				{
+					"value": "2027",
+					"count": 1,
+					"color": "rgb(106, 193, 228)"
+				},
+				{
+					"value": "2030",
+					"count": 1,
+					"color": "rgb(217, 175, 110)"
+				},
+				{
+					"value": "2032",
+					"count": 1,
+					"color": "rgb(104, 223, 211)"
+				},
+				{
+					"value": "2565",
+					"count": 1,
+					"color": "rgb(118, 190, 150)"
+				},
+				{
+					"value": "2606",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "2984",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "2985",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "2988",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "2990",
+					"count": 1,
+					"color": "#AAA"
+				}
+			],
+			"modalitiesIndex": {
+				"2": {
+					"value": "2",
+					"count": 1,
+					"color": "rgb(109, 220, 160)"
+				},
+				"398": {
+					"value": "398",
+					"count": 1,
+					"color": "rgb(226, 154, 215)"
+				},
+				"1174": {
+					"value": "1174",
+					"count": 1,
+					"color": "rgb(160, 182, 98)"
+				},
+				"1551": {
+					"value": "1551",
+					"count": 1,
+					"color": "rgb(164, 165, 236)"
+				},
+				"2025": {
+					"value": "2025",
+					"count": 1,
+					"color": "rgb(194, 224, 143)"
+				},
+				"2027": {
+					"value": "2027",
+					"count": 1,
+					"color": "rgb(106, 193, 228)"
+				},
+				"2030": {
+					"value": "2030",
+					"count": 1,
+					"color": "rgb(217, 175, 110)"
+				},
+				"2032": {
+					"value": "2032",
+					"count": 1,
+					"color": "rgb(104, 223, 211)"
+				},
+				"2565": {
+					"value": "2565",
+					"count": 1,
+					"color": "rgb(118, 190, 150)"
+				},
+				"2606": {
+					"value": "2606",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"2984": {
+					"value": "2984",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"2985": {
+					"value": "2985",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"2988": {
+					"value": "2988",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"2990": {
+					"value": "2990",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"undefined": {
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(233, 145, 147)"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"2": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"398": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"1174": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					},
+					"1551": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"2025": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"2027": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"2030": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"2032": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"2565": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					},
+					"2606": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"2984": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"2985": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"2988": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 7,
+						"outboundNDensity": 0.03240740740740741,
+						"externalLinks": 7,
+						"externalNDensity": 0.03240740740740741
+					},
+					"2990": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"undefined": {
+						"nodes": 20,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 27,
+						"inboundNDensity": 0.12499999999999997,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 27,
+						"externalNDensity": 0.12499999999999997
+					}
+				},
+				"modalities": [
+					"2",
+					"398",
+					"1174",
+					"1551",
+					"2025",
+					"2027",
+					"2030",
+					"2032",
+					"2565",
+					"2606",
+					"2984",
+					"2985",
+					"2988",
+					"2990",
+					"undefined"
+				],
+				"modalityFlow": {
+					"2": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"398": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"1174": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						}
+					},
+					"1551": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"2025": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"2027": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"2030": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"2032": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"2565": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						}
+					},
+					"2606": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						}
+					},
+					"2984": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"2985": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"2988": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 7,
+							"expected": 3.4999999999999996,
+							"nd": 0.03240740740740741
+						}
+					},
+					"2990": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						}
+					},
+					"undefined": {
+						"2": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"398": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1174": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"1551": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2025": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2027": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2030": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2032": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2565": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2606": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2984": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2985": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2988": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"2990": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					}
+				},
+				"stats": {
+					"modularity": -0.12499999999999997
+				}
+			}
+		},
+		{
+			"id": "a-9dea51b41ad380aa83f2a25a7cecc5eb",
+			"name": "A-9dea51b41ad380aa83f2a25a7cecc5eb",
+			"count": 14,
+			"type": "partition",
+			"integer": false,
+			"modalities": [
+				{
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(234, 139, 138)"
+				},
+				{
+					"value": "allyes\\.com",
+					"count": 1,
+					"color": "rgb(113, 215, 163)"
+				},
+				{
+					"value": "miaozhen\\.com",
+					"count": 1,
+					"color": "rgb(233, 148, 196)"
+				},
+				{
+					"value": "tanx\\.com",
+					"count": 1,
+					"color": "rgb(194, 222, 140)"
+				},
+				{
+					"value": "mmstat\\.com",
+					"count": 1,
+					"color": "rgb(194, 162, 233)"
+				},
+				{
+					"value": "cnzz\\.com",
+					"count": 1,
+					"color": "rgb(139, 182, 111)"
+				},
+				{
+					"value": "webterren\\.com",
+					"count": 1,
+					"color": "rgb(121, 185, 232)"
+				},
+				{
+					"value": "google-analytics\\.com\\/analytics.js",
+					"count": 1,
+					"color": "rgb(204, 186, 107)"
+				},
+				{
+					"value": "go-mpulse\\.net",
+					"count": 1,
+					"color": "rgb(97, 215, 208)"
+				},
+				{
+					"value": "scorecardresearch\\.com",
+					"count": 1,
+					"color": "rgb(223, 161, 114)"
+				},
+				{
+					"value": "taboola\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "acs86\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "adsame\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "admaster\\.com.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				{
+					"value": "hm\\.baidu.com",
+					"count": 1,
+					"color": "#AAA"
+				}
+			],
+			"modalitiesIndex": {
+				"undefined": {
+					"value": "undefined",
+					"count": 20,
+					"color": "rgb(234, 139, 138)"
+				},
+				"allyes\\.com": {
+					"value": "allyes\\.com",
+					"count": 1,
+					"color": "rgb(113, 215, 163)"
+				},
+				"miaozhen\\.com": {
+					"value": "miaozhen\\.com",
+					"count": 1,
+					"color": "rgb(233, 148, 196)"
+				},
+				"tanx\\.com": {
+					"value": "tanx\\.com",
+					"count": 1,
+					"color": "rgb(194, 222, 140)"
+				},
+				"mmstat\\.com": {
+					"value": "mmstat\\.com",
+					"count": 1,
+					"color": "rgb(194, 162, 233)"
+				},
+				"cnzz\\.com": {
+					"value": "cnzz\\.com",
+					"count": 1,
+					"color": "rgb(139, 182, 111)"
+				},
+				"webterren\\.com": {
+					"value": "webterren\\.com",
+					"count": 1,
+					"color": "rgb(121, 185, 232)"
+				},
+				"google-analytics\\.com\\/analytics.js": {
+					"value": "google-analytics\\.com\\/analytics.js",
+					"count": 1,
+					"color": "rgb(204, 186, 107)"
+				},
+				"go-mpulse\\.net": {
+					"value": "go-mpulse\\.net",
+					"count": 1,
+					"color": "rgb(97, 215, 208)"
+				},
+				"scorecardresearch\\.com": {
+					"value": "scorecardresearch\\.com",
+					"count": 1,
+					"color": "rgb(223, 161, 114)"
+				},
+				"taboola\\.com": {
+					"value": "taboola\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"acs86\\.com": {
+					"value": "acs86\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"adsame\\.com": {
+					"value": "adsame\\.com",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"admaster\\.com.cn": {
+					"value": "admaster\\.com.cn",
+					"count": 1,
+					"color": "#AAA"
+				},
+				"hm\\.baidu.com": {
+					"value": "hm\\.baidu.com",
+					"count": 1,
+					"color": "#AAA"
+				}
+			},
+			"data": {
+				"modalitiesIndex": {
+					"undefined": {
+						"nodes": 20,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 27,
+						"inboundNDensity": 0.12499999999999999,
+						"outboundLinks": 0,
+						"outboundNDensity": 0,
+						"externalLinks": 27,
+						"externalNDensity": 0.12499999999999999
+					},
+					"allyes\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"miaozhen\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"tanx\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"mmstat\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"cnzz\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					},
+					"webterren\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 7,
+						"outboundNDensity": 0.03240740740740741,
+						"externalLinks": 7,
+						"externalNDensity": 0.03240740740740741
+					},
+					"google-analytics\\.com\\/analytics.js": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"go-mpulse\\.net": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"scorecardresearch\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"taboola\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"acs86\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"adsame\\.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 2,
+						"outboundNDensity": 0.009259259259259259,
+						"externalLinks": 2,
+						"externalNDensity": 0.009259259259259259
+					},
+					"admaster\\.com.cn": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 1,
+						"outboundNDensity": 0.004629629629629629,
+						"externalLinks": 1,
+						"externalNDensity": 0.004629629629629629
+					},
+					"hm\\.baidu.com": {
+						"nodes": 1,
+						"internalLinks": 0,
+						"internalNDensity": 0,
+						"inboundLinks": 0,
+						"inboundNDensity": 0,
+						"outboundLinks": 3,
+						"outboundNDensity": 0.013888888888888886,
+						"externalLinks": 3,
+						"externalNDensity": 0.013888888888888886
+					}
+				},
+				"modalities": [
+					"undefined",
+					"allyes\\.com",
+					"miaozhen\\.com",
+					"tanx\\.com",
+					"mmstat\\.com",
+					"cnzz\\.com",
+					"webterren\\.com",
+					"google-analytics\\.com\\/analytics.js",
+					"go-mpulse\\.net",
+					"scorecardresearch\\.com",
+					"taboola\\.com",
+					"acs86\\.com",
+					"adsame\\.com",
+					"admaster\\.com.cn",
+					"hm\\.baidu.com"
+				],
+				"modalityFlow": {
+					"undefined": {
+						"undefined": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"allyes\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"miaozhen\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"tanx\\.com": {
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"mmstat\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"cnzz\\.com": {
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"webterren\\.com": {
+						"undefined": {
+							"count": 7,
+							"expected": 3.4999999999999996,
+							"nd": 0.03240740740740741
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"google-analytics\\.com\\/analytics.js": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"go-mpulse\\.net": {
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"scorecardresearch\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"taboola\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"acs86\\.com": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"adsame\\.com": {
+						"undefined": {
+							"count": 2,
+							"expected": 1,
+							"nd": 0.009259259259259259
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"admaster\\.com.cn": {
+						"undefined": {
+							"count": 1,
+							"expected": 0.5,
+							"nd": 0.004629629629629629
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					},
+					"hm\\.baidu.com": {
+						"undefined": {
+							"count": 3,
+							"expected": 1.5000000000000002,
+							"nd": 0.013888888888888886
+						},
+						"allyes\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"miaozhen\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"tanx\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"mmstat\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"cnzz\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"webterren\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"google-analytics\\.com\\/analytics.js": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"go-mpulse\\.net": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"scorecardresearch\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"taboola\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"acs86\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"adsame\\.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"admaster\\.com.cn": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						},
+						"hm\\.baidu.com": {
+							"count": 0,
+							"expected": 0,
+							"nd": 0
+						}
+					}
+				},
+				"stats": {
+					"modularity": -0.12499999999999999
+				}
+			}
+		}
+	],
+	"graph_settings": {
+		"type": "directed",
+		"multi": false
+	},
+	"g": {
+		"attributes": {
+			"creator": "Gephi 0.9",
+			"description": "",
+			"lastModifiedDate": "2019-03-11"
+		},
+		"nodes": [
+			{
+				"key": "u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"label": "https://www.sina.com.cn/?from=kandian",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "sina.com.cn",
+					"color": "rgb(217,125,216)",
+					"size": 24.285715,
+					"x": -184.91045,
+					"y": 497.4135
+				}
+			},
+			{
+				"key": "t_500567819b66712a5e0c50fb1806be96",
+				"attributes": {
+					"label": "Allyes",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "tracker",
+					"a-b99eb09924d437dbd445a146af8c210a": 1240,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2025,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "allyes\\.com",
+					"color": "rgb(255,112,69)",
+					"size": 12.857143,
+					"x": 137.99812,
+					"y": -471.0852
+				}
+			},
+			{
+				"key": "t_8b3a21d6791d3dc4abcc79716b072a99",
+				"attributes": {
+					"label": "Miaozhen",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1902,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2990,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "miaozhen\\.com",
+					"color": "rgb(140,185,0)",
+					"size": 12.857143,
+					"x": -481.86844,
+					"y": -60.354122
+				}
+			},
+			{
+				"key": "t_bb266915bfe6a23bef8e4591c35a6676",
+				"attributes": {
+					"label": "Tanx",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1243,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2032,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "tanx\\.com",
+					"color": "rgb(140,185,0)",
+					"size": 15.714286,
+					"x": 460.16605,
+					"y": -323.5556
+				}
+			},
+			{
+				"key": "t_77421508b58fcf4ca20d0ca9f05142a9",
+				"attributes": {
+					"label": "MarkMonitor",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "tracker",
+					"a-b99eb09924d437dbd445a146af8c210a": 1241,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2027,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "mmstat\\.com",
+					"color": "rgb(255,112,69)",
+					"size": 12.857143,
+					"x": -398.66885,
+					"y": 417.3047
+				}
+			},
+			{
+				"key": "t_7aeb0dddec4345e305d7f169de817cb8",
+				"attributes": {
+					"label": "CNZZ",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "analytics",
+					"a-b99eb09924d437dbd445a146af8c210a": 704,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 1174,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "cnzz\\.com",
+					"color": "rgb(0,199,255)",
+					"size": 18.571428,
+					"x": -174.88445,
+					"y": 251.44263
+				}
+			},
+			{
+				"key": "u_eda07bb8e74c4112396d05e930392243",
+				"attributes": {
+					"label": "http://gmw.cn/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "gmw.cn",
+					"color": "rgb(217,125,216)",
+					"size": 15.714286,
+					"x": 335.71225,
+					"y": -301.25842
+				}
+			},
+			{
+				"key": "t_ffbff546801667c507203a334c3aa9c1",
+				"attributes": {
+					"label": "Terren",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "analytics",
+					"a-b99eb09924d437dbd445a146af8c210a": 1900,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2988,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "webterren\\.com",
+					"color": "rgb(0,199,255)",
+					"size": 30,
+					"x": -99.23054,
+					"y": -266.6995
+				}
+			},
+			{
+				"key": "t_d86cf69a8b82547a94ca3f6a307cf9a6",
+				"attributes": {
+					"label": "Google Analytics",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "analytics",
+					"a-b99eb09924d437dbd445a146af8c210a": 13,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "google-analytics\\.com\\/analytics.js",
+					"color": "rgb(0,199,255)",
+					"size": 12.857143,
+					"x": 245.85152,
+					"y": 81.26343
+				}
+			},
+			{
+				"key": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"label": "http://www.chinadaily.com.cn/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "chinadaily.com.cn",
+					"color": "rgb(217,125,216)",
+					"size": 24.285715,
+					"x": 127.7322,
+					"y": 77.563416
+				}
+			},
+			{
+				"key": "t_c816d74dee87878ee19ec4ac68ca7ff7",
+				"attributes": {
+					"label": "SOASTA mPulse",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "analytics",
+					"a-b99eb09924d437dbd445a146af8c210a": 1610,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2606,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "go-mpulse\\.net",
+					"color": "rgb(0,199,255)",
+					"size": 15.714286,
+					"x": 133.25655,
+					"y": 130.4848
+				}
+			},
+			{
+				"key": "t_a71aecf96afe415b85cc4e9aa1ab7808",
+				"attributes": {
+					"label": "ScoreCard Research Beacon",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "tracker",
+					"a-b99eb09924d437dbd445a146af8c210a": 187,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 398,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "scorecardresearch\\.com",
+					"color": "rgb(255,112,69)",
+					"size": 12.857143,
+					"x": 32.140953,
+					"y": -99.02014
+				}
+			},
+			{
+				"key": "t_1ab32a7cfc63771d5c91d438de76c7f6",
+				"attributes": {
+					"label": "Taboola",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "widget",
+					"a-b99eb09924d437dbd445a146af8c210a": 951,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 1551,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "taboola\\.com",
+					"color": "rgb(35,150,111)",
+					"size": 12.857143,
+					"x": 169.9994,
+					"y": -347.4573
+				}
+			},
+			{
+				"key": "u_87eb85e63d058cb8e2796967447f37c9",
+				"attributes": {
+					"label": "http://xinhuanet.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "xinhuanet.com",
+					"color": "rgb(217,125,216)",
+					"size": 12.857143,
+					"x": 114.46401,
+					"y": -432.6645
+				}
+			},
+			{
+				"key": "u_1ed1be9cb001582285ff9ec89f16d1a0",
+				"attributes": {
+					"label": "http://www.oeeee.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "oeeee.com",
+					"color": "rgb(217,125,216)",
+					"size": 12.857143,
+					"x": -416.97644,
+					"y": -191.49545
+				}
+			},
+			{
+				"key": "u_ceddf7f73922025c537232ae2eaa59f5",
+				"attributes": {
+					"label": "http://eastday.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "eastday.com",
+					"color": "rgb(217,125,216)",
+					"size": 15.714286,
+					"x": -315.23874,
+					"y": -406.34256
+				}
+			},
+			{
+				"key": "t_f6598ab3c7c2bdca2f7979af09f91cb2",
+				"attributes": {
+					"label": "AdChina",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1896,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2984,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "acs86\\.com",
+					"color": "rgb(140,185,0)",
+					"size": 12.857143,
+					"x": 126.296715,
+					"y": -160.12717
+				}
+			},
+			{
+				"key": "u_7ac9af4410646993284aae5fd3c166e4",
+				"attributes": {
+					"label": "http://www.southcn.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "southcn.com",
+					"color": "rgb(217,125,216)",
+					"size": 21.428572,
+					"x": 269.80283,
+					"y": 59.07062
+				}
+			},
+			{
+				"key": "t_0691da6d2e20b4d902b48315c7cee146",
+				"attributes": {
+					"label": "Adsame",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1242,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2030,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "adsame\\.com",
+					"color": "rgb(140,185,0)",
+					"size": 15.714286,
+					"x": -379.00742,
+					"y": 89.90875
+				}
+			},
+			{
+				"key": "t_182f145481ba51ccd1e867c6c7db7903",
+				"attributes": {
+					"label": "AdMaster.cn",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1897,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2985,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "admaster\\.com.cn",
+					"color": "rgb(140,185,0)",
+					"size": 12.857143,
+					"x": 378.5757,
+					"y": 117.53351
+				}
+			},
+			{
+				"key": "t_5fdb1b30a1c337379816e344fa8d24e1",
+				"attributes": {
+					"label": "Baidu Ads",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "ad",
+					"a-b99eb09924d437dbd445a146af8c210a": 1572,
+					"a-4b7cc5694dd3a265bac326eaba31266e": 2565,
+					"a-9dea51b41ad380aa83f2a25a7cecc5eb": "hm\\.baidu.com",
+					"color": "rgb(140,185,0)",
+					"size": 18.571428,
+					"x": 333.14035,
+					"y": -122.431244
+				}
+			},
+			{
+				"key": "u_1a287e285c02cc89b99f37837cb0362b",
+				"attributes": {
+					"label": "http://www.rednet.cn/index.html",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "rednet.cn",
+					"color": "rgb(217,125,216)",
+					"size": 15.714286,
+					"x": -519.9092,
+					"y": 290.87463
+				}
+			},
+			{
+				"key": "u_d7fa463678c83d80ded42ad450af1ace",
+				"attributes": {
+					"label": "http://cyol.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "cyol.com",
+					"color": "rgb(217,125,216)",
+					"size": 15.714286,
+					"x": -146.30977,
+					"y": 309.16675
+				}
+			},
+			{
+				"key": "u_affafb942dd45a0bd4ba43242493b030",
+				"attributes": {
+					"label": "http://cqnews.net/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "cqnews.net",
+					"color": "rgb(217,125,216)",
+					"size": 15.714286,
+					"x": 21.035238,
+					"y": -50.002224
+				}
+			},
+			{
+				"key": "u_f8f325f49f2f1b28167f3c641c47c380",
+				"attributes": {
+					"label": "http://www.workercn.cn/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "workercn.cn",
+					"color": "rgb(217,125,216)",
+					"size": 12.857143,
+					"x": 447.69974,
+					"y": 297.4464
+				}
+			},
+			{
+				"key": "u_2e8873d882b4eb4b73b35f5214d2e90d",
+				"attributes": {
+					"label": "http://www.sohu.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "sohu.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": 190.69838,
+					"y": 279.81824
+				}
+			},
+			{
+				"key": "u_a82f737734f85a4631a6ff5e3e5076ad",
+				"attributes": {
+					"label": "https://china.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "china.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": -452.64603,
+					"y": -101.43268
+				}
+			},
+			{
+				"key": "u_fd8637af44d6d07ade91d654ff498c67",
+				"attributes": {
+					"label": "http://www.163.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "163.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": -73.26835,
+					"y": 67.43878
+				}
+			},
+			{
+				"key": "u_dea8fcfd031830a5aaf26795bb4e5724",
+				"attributes": {
+					"label": "http://www.huanqiu.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "huanqiu.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": 177.7914,
+					"y": -425.42035
+				}
+			},
+			{
+				"key": "u_e7979c68a67cdba8460168192a9efb83",
+				"attributes": {
+					"label": "http://youdao.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "youdao.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": 347.68686,
+					"y": -146.73218
+				}
+			},
+			{
+				"key": "u_d0dae34b88fc0cc86e305ce4c60e1670",
+				"attributes": {
+					"label": "http://www.ifeng.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "ifeng.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": -374.78708,
+					"y": 142.2821
+				}
+			},
+			{
+				"key": "u_8629ec4cdb47670404437620682b9922",
+				"attributes": {
+					"label": "https://www.guancha.cn/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "guancha.cn",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": 396.9081,
+					"y": 341.2295
+				}
+			},
+			{
+				"key": "u_d9922093beb0115c3fc18f9cc62cd8b7",
+				"attributes": {
+					"label": "http://sznews.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "sznews.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": -416.4882,
+					"y": -21.071804
+				}
+			},
+			{
+				"key": "u_a7a5657786d4ea8497f36ab0a824314d",
+				"attributes": {
+					"label": "http://ynet.com/",
+					"a-599dcce2998a6b40b1e38e8c6006cb0a": "url",
+					"a-67b3dba8bc6778101892eb77249db32e": "ynet.com",
+					"color": "rgb(217,125,216)",
+					"size": 10,
+					"x": -12.762368,
+					"y": 476.90857
+				}
+			}
+		],
+		"edges": [
+			{
+				"source": "t_500567819b66712a5e0c50fb1806be96",
+				"target": "u_b7939ae6aea7ac6051cec512fd509651",
+				"key": "e-t_500567819b66712a5e0c50fb1806be96u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_8b3a21d6791d3dc4abcc79716b072a99",
+				"target": "u_b7939ae6aea7ac6051cec512fd509651",
+				"key": "e-t_8b3a21d6791d3dc4abcc79716b072a99u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_bb266915bfe6a23bef8e4591c35a6676",
+				"target": "u_b7939ae6aea7ac6051cec512fd509651",
+				"key": "e-t_bb266915bfe6a23bef8e4591c35a6676u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_77421508b58fcf4ca20d0ca9f05142a9",
+				"target": "u_b7939ae6aea7ac6051cec512fd509651",
+				"key": "e-t_77421508b58fcf4ca20d0ca9f05142a9u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_7aeb0dddec4345e305d7f169de817cb8",
+				"target": "u_b7939ae6aea7ac6051cec512fd509651",
+				"key": "e-t_7aeb0dddec4345e305d7f169de817cb8u_b7939ae6aea7ac6051cec512fd509651",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_eda07bb8e74c4112396d05e930392243",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_eda07bb8e74c4112396d05e930392243",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_d86cf69a8b82547a94ca3f6a307cf9a6",
+				"target": "u_eda07bb8e74c4112396d05e930392243",
+				"key": "e-t_d86cf69a8b82547a94ca3f6a307cf9a6u_eda07bb8e74c4112396d05e930392243",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_c816d74dee87878ee19ec4ac68ca7ff7",
+				"target": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"key": "e-t_c816d74dee87878ee19ec4ac68ca7ff7u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_a71aecf96afe415b85cc4e9aa1ab7808",
+				"target": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"key": "e-t_a71aecf96afe415b85cc4e9aa1ab7808u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_1ab32a7cfc63771d5c91d438de76c7f6",
+				"target": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"key": "e-t_1ab32a7cfc63771d5c91d438de76c7f6u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_7aeb0dddec4345e305d7f169de817cb8",
+				"target": "u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"key": "e-t_7aeb0dddec4345e305d7f169de817cb8u_9c1d70a2fe3e7275bf4d658c9dd4038a",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_c816d74dee87878ee19ec4ac68ca7ff7",
+				"target": "u_87eb85e63d058cb8e2796967447f37c9",
+				"key": "e-t_c816d74dee87878ee19ec4ac68ca7ff7u_87eb85e63d058cb8e2796967447f37c9",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_bb266915bfe6a23bef8e4591c35a6676",
+				"target": "u_1ed1be9cb001582285ff9ec89f16d1a0",
+				"key": "e-t_bb266915bfe6a23bef8e4591c35a6676u_1ed1be9cb001582285ff9ec89f16d1a0",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_f6598ab3c7c2bdca2f7979af09f91cb2",
+				"target": "u_ceddf7f73922025c537232ae2eaa59f5",
+				"key": "e-t_f6598ab3c7c2bdca2f7979af09f91cb2u_ceddf7f73922025c537232ae2eaa59f5",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_ceddf7f73922025c537232ae2eaa59f5",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_ceddf7f73922025c537232ae2eaa59f5",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_0691da6d2e20b4d902b48315c7cee146",
+				"target": "u_7ac9af4410646993284aae5fd3c166e4",
+				"key": "e-t_0691da6d2e20b4d902b48315c7cee146u_7ac9af4410646993284aae5fd3c166e4",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_7ac9af4410646993284aae5fd3c166e4",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_7ac9af4410646993284aae5fd3c166e4",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_182f145481ba51ccd1e867c6c7db7903",
+				"target": "u_7ac9af4410646993284aae5fd3c166e4",
+				"key": "e-t_182f145481ba51ccd1e867c6c7db7903u_7ac9af4410646993284aae5fd3c166e4",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_5fdb1b30a1c337379816e344fa8d24e1",
+				"target": "u_7ac9af4410646993284aae5fd3c166e4",
+				"key": "e-t_5fdb1b30a1c337379816e344fa8d24e1u_7ac9af4410646993284aae5fd3c166e4",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_1a287e285c02cc89b99f37837cb0362b",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_1a287e285c02cc89b99f37837cb0362b",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_5fdb1b30a1c337379816e344fa8d24e1",
+				"target": "u_1a287e285c02cc89b99f37837cb0362b",
+				"key": "e-t_5fdb1b30a1c337379816e344fa8d24e1u_1a287e285c02cc89b99f37837cb0362b",
+				"attributes": {
+					"weight": 2,
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_0691da6d2e20b4d902b48315c7cee146",
+				"target": "u_d7fa463678c83d80ded42ad450af1ace",
+				"key": "e-t_0691da6d2e20b4d902b48315c7cee146u_d7fa463678c83d80ded42ad450af1ace",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_d7fa463678c83d80ded42ad450af1ace",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_d7fa463678c83d80ded42ad450af1ace",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_ffbff546801667c507203a334c3aa9c1",
+				"target": "u_affafb942dd45a0bd4ba43242493b030",
+				"key": "e-t_ffbff546801667c507203a334c3aa9c1u_affafb942dd45a0bd4ba43242493b030",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_7aeb0dddec4345e305d7f169de817cb8",
+				"target": "u_affafb942dd45a0bd4ba43242493b030",
+				"key": "e-t_7aeb0dddec4345e305d7f169de817cb8u_affafb942dd45a0bd4ba43242493b030",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			},
+			{
+				"source": "t_5fdb1b30a1c337379816e344fa8d24e1",
+				"target": "u_f8f325f49f2f1b28167f3c641c47c380",
+				"key": "e-t_5fdb1b30a1c337379816e344fa8d24e1u_f8f325f49f2f1b28167f3c641c47c380",
+				"attributes": {
+					"color": "rgb(192,192,192)"
+				}
+			}
+		]
+	}
+}
